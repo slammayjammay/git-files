@@ -19,5 +19,9 @@
     "deleted"
   ],
   "author": "Scott McKenzie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slammayjammay/git-files.git"
+  },
   "license": "MIT"
 }

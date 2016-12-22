@@ -1,5 +1,5 @@
 const chalk = require('chalk')
-const utils = require('../utils')
+const utils = require('./utils')
 
 const STAGED_COMMAND = 'git diff --cached --name-only'
 const MODIFIED_COMMAND = 'git ls-files --modified'

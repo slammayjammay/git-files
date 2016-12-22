@@ -1,0 +1,23 @@
+{
+  "name": "git-files",
+  "version": "0.1.0",
+  "description": "List git files",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "list",
+    "files",
+    "staged",
+    "modified",
+    "untracked",
+    "deleted"
+  ],
+  "author": "Scott McKenzie",
+  "license": "MIT"
+}

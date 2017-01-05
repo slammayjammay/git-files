@@ -2,7 +2,7 @@ const chalk = require('chalk')
 const utils = require('./utils')
 
 const STAGED_COMMAND = 'git diff --cached --name-only'
-const MODIFIED_COMMAND = 'git ls-files --modified --full-name'
+const MODIFIED_COMMAND = `git diff --name-status | awk '{ if ($1 == "M") print $2 }'`
 const UNTRACKED_COMMAND = 'git ls-files --other --exclude-standard --full-name'
 const DELETED_COMMAND = 'git ls-files --deleted --full-name'
 

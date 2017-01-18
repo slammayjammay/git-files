@@ -2,12 +2,13 @@
   "name": "git-files",
   "version": "0.2.3",
   "description": "List git files",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "chalk": "^1.1.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --presets=es2015 src -d lib",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "git",

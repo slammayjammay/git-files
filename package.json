@@ -1,6 +1,6 @@
 {
   "name": "git-files",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "List git files",
   "main": "lib/index.js",
   "dependencies": {
